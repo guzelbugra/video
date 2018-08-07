@@ -1,0 +1,46 @@
+/* OYnatıcı */
+ .playerClass {
+  background: #ccc;
+  position: relative;
+}
+
+.playerClass canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Çubuk
+  TODO:Ne kadar ilerlediğini göstereceğimiz yer
+*/
+.frameplayer > .fp-ctrl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+  opacity: .6;
+  height: 40px;
+  background: #000;
+}
+
+/* Buttons */
+.fp-ctrl > .fp-btn {
+  margin: 10px 10px 0 10px;
+  float: left;
+}
+
+.fp-ctrl > .fp-select {
+  margin-top: 10px;
+  float: left;
+  text-transform: capitalize;
+}
+
+input.to-frame {
+  width: 20px;
+  margin-right:6px;
+}
+
+label.to-frame {
+  margin: 10px 10px 0 10px;
+  float: left;
+}

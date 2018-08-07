@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame Player</title>
+
+    <link rel="stylesheet" href="src/frameplayer.css">
+
+    <style>
+      .playerClass {
+        float: left;
+        margin: 10px;
+      }
+    </style>
+</head>
+<body>
+  <div id="player" class="playerClass"></div>
+   <script src="src/frameplayer.js"></script>
+  <script>
+
+
+      var player = new FramePlayer('player');
+
+      player.play();
+
+  </script>
+</body>
+</html>
